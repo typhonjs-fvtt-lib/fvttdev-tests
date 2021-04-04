@@ -1,0 +1,28 @@
+{
+  "name": "@typhonjs-fvtt/fvttdev-tests",
+  "description": "Provides tests and test data for comprehensive testing of `fvttdev`.",
+  "version": "0.0.0",
+  "author": "typhonrt",
+  "private": true,
+  "type": "module",
+  "bugs": "https://github.com/typhonjs-fvtt/fvttdev-tests/issues",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "engines": {
+  },
+  "files": [
+    "/complete",
+    "/sanity"
+  ],
+  "homepage": "https://github.com/typhonjs-fvtt/fvttdev-tests",
+  "keywords": [
+    "fvttdev",
+    "tests"
+  ],
+  "license": "MPL-2.0",
+  "repository": "typhonjs-fvtt/fvttdev-tests",
+  "scripts": {
+  }
+}
