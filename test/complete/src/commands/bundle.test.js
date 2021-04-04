@@ -6,8 +6,8 @@ import { fancy }           from 'fancy-test';
 
 import { NonFatalError }   from '@typhonjs-oclif/errors';
 
-import runCLI              from '../../utils/runCLI.js';
-import packageVersion      from '../../utils/packageVersion.js';
+import runCLI              from '../../../utils/runCLI.js';
+import packageVersion      from '../../../utils/packageVersion.js';
 
 const s_WIN_REGEX = /\\/g;
 

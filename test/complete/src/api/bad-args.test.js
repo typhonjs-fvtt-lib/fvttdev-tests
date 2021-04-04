@@ -2,7 +2,7 @@ import { expect } from 'chai';
 
 import { Errors } from '@oclif/core';
 
-import runCLI     from '../../utils/runCLI.js';
+import runCLI     from '../../../utils/runCLI.js';
 
 describe('API', () =>
 {

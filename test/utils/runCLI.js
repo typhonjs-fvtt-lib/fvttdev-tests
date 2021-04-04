@@ -1,6 +1,6 @@
-import url     from 'url';
+import { run }             from '@oclif/core';
 
-import { run } from '@oclif/core';
+import { getPackagePath }  from '@typhonjs-node-utils/package-util';
 
 /**
  * Invokes CLI with args.
@@ -11,5 +11,12 @@ import { run } from '@oclif/core';
  */
 export default function runCLI(args)
 {
-   return run(args, url.fileURLToPath(import.meta.url));
+   const result = getPackagePath({
+      filepath: import.meta.url,
+      callback: (data) => data.packageObj.name === '@typhonjs-fvtt/fvttdev'
+   });
+
+   if (result.packageObj === void 0) { throw new Error('Could not find `fvttdev` package.json'); }
+
+   return run(args, result.packagePath);
 }
