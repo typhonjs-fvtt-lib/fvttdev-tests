@@ -13,8 +13,7 @@
   "engines": {
   },
   "files": [
-    "/complete",
-    "/sanity"
+    "/tests"
   ],
   "homepage": "https://github.com/typhonjs-fvtt/fvttdev-tests",
   "keywords": [
